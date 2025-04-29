@@ -34,5 +34,11 @@ dependencies = [
 
 urls.source = "https://github.com/platformsh/colander-tools"
 
+[dependency-groups]
+dev = [
+    "pre-commit~=4.2",
+    "ruff~=0.11",
+]
+
 [tool.pyproject-fmt]
 indent = 4
